@@ -10,7 +10,7 @@ import Image from  '../components/image.jsx';
 
 
 
-import Button from  '../components/button.jsx';
+// import Button from  '../components/button.jsx';
 
 
 
@@ -29,7 +29,7 @@ function Home() {
   
     
       
-       <Button/>
+       {/* <Button/> */}
        
     </main>
   );

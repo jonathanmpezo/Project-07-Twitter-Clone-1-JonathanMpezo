@@ -4,7 +4,7 @@ import god from "/Group 22.svg"
 import face from "/Group 18.svg"
 import bac from "/Group 19.svg"
 import bic from "/Group 20.svg"
-import vic from"/Placeholder.svg"
+// import vic from"/Placeholder.svg"
 
 function Editor() {
 
@@ -20,7 +20,11 @@ function Editor() {
           <div classeName="tweet-editor-form">
             
             <div className="tweet-editor-input">
-              <img src={vic}/>
+              {/* <img src={vic}/> */}
+            <texterea> <input type=" What's happening?"/></texterea>
+            
+             
+            
             </div>
             
             <div className="tweet-editor-buttons">
