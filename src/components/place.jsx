@@ -1,12 +1,12 @@
 import logo from "../images/Logo.png"
-// import ego from "/images/Tweet-Title.svg"
+import ego from "/public/Tweet-Title.svg"
 
 function Place(){
   return(
   
     <setion>
       <img src={logo}/>
-      {/* <img src={ego}/> */}
+       <img src={ego}/> 
     </setion>
     
     
