@@ -10,6 +10,7 @@ import Image from  '../components/image.jsx';
 
 
 
+
 // import Button from  '../components/button.jsx';
 
 
@@ -25,6 +26,7 @@ function Home() {
         <Time/>
         <Affiche/>
         <Image/> 
+       
       
   
     

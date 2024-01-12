@@ -9,7 +9,7 @@ import  Kiss from "/Butontecharge.svg"
 function Time(){
   return(          
     
-    <div className="timeline">
+    
       <div className="tweets">
         <div className="tweet">
            <img src={kas}/>
@@ -34,7 +34,7 @@ function Time(){
           </section>
         </div>  
       </div>   
-  </div>
+  
                 
            
   )

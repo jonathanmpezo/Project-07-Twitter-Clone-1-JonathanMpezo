@@ -9,7 +9,7 @@ import bic from "/Group 20.svg"
 function Editor() {
 
   return (
-    <div className="timeline">
+    // <div className="timeline">
       
       <div className="tweet-editor">
           <div className="avatar">
@@ -17,15 +17,23 @@ function Editor() {
           </div>
        
         
-          <div classeName="tweet-editor-form">
+          <form classeName="tweet-editor-form">
             
-            <div className="tweet-editor-input">
-              {/* <img src={vic}/> */}
-            <texterea> <input type=" What's happening?"/></texterea>
+          
+             
+            <texterea
+                className="tweet-editor-input"
+           
+              rows="3"
+              type="text"
+              required
+            
+              />
+              
             
              
             
-            </div>
+            
             
             <div className="tweet-editor-buttons">
               
@@ -43,9 +51,9 @@ function Editor() {
               </div>
               
               </div>
-        </div>
+        </form>
       </div>  
-    </div>
+    // </div>
     
   )
 }
