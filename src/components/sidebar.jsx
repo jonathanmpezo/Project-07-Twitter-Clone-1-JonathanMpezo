@@ -12,18 +12,20 @@ function Sidebar(){
     <div className="left-sidebar">
       <table>
         <button>
-          <tr>
-              <th scope="col"><img src={coco}/></th>
-             <th scope="col"> <img src={toc}/>homme</th>
-             <th scope="col"> <img src={fac}/>Explore</th>
-             <th scope="col"> <img src={jic}/>Notifications</th>
-             <th scope="col"> <img src={fonc}/>Messages</th>
-             <th scope="col"> <img src={fic}/>Bookmarks</th>
-             <th scope="col"> <img src={fi}/>Lists</th>
-             <th scope="col"><img src={pic}/>Profile</th>
-             <th scope="col"> <img src={mic}/>More</th>
+          
+            <tr>
+                <th scope="col"><img src={coco}/></th>
+               <th scope="col"> <img src={toc}/>homme</th>
+               <th scope="col"> <img src={fac}/>Explore</th>
+               <th scope="col"> <img src={jic}/>Notifications</th>
+               <th scope="col"> <img src={fonc}/>Messages</th>
+               <th scope="col"> <img src={fic}/>Bookmarks</th>
+               <th scope="col"> <img src={fi}/>Lists</th>
+               <th scope="col"><img src={pic}/>Profile</th>
+               <th scope="col"> <img src={mic}/>More</th>
 
-          </tr>
+            </tr>
+         
           </button>
       
       </table>
