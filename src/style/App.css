@@ -194,6 +194,11 @@ body{
     gap: 20px;
 }
 
+.avatar.btn{
+  height: 45px;
+  width: 50px;
+}
+
 /* .left-sidebar{
   display:fex;
    /* column-width:50em; */

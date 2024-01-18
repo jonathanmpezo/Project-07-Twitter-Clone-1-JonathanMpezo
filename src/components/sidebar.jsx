@@ -7,6 +7,8 @@ import fic from "/public/Bookmarks.svg"
 import fi from "/public/Lists.svg"
 import pic from "/public/Profile.svg"
 import mic from "/public/Group.svg"
+import profilePhoto from "../images/profile-photo.png"
+import lic from "/public/Private.svg"
 function Sidebar(){
   return(
     <div className="left-sidebar">
@@ -34,10 +36,19 @@ function Sidebar(){
           {/* </button>
        */}
       </table>
-     
-     
-     
-    </div>
+      
+     {/* <section>   */}
+  <div className="avatar.btn"> <img src={profilePhoto}/>
+          Brandley< img src={lic} />
+       </div>
+       
+     {/* </section> */}
+      {/* <button className="header_btn">
+          <img height="15px" width="15px" src={this.props.imageUrl} />
+          {this.props.text}
+      </button>
+      */}
+  </div>
     
     
     
