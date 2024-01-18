@@ -26,7 +26,8 @@ function Image() {
                   <img src={bon}/> 
                   <img src={ville}/>
                     <img src={gag}/>  
-                   <img src={Kiss}/> 
+                   <img src={Kiss}/>
+                  
 
                  </div>
               </div>

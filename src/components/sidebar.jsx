@@ -11,23 +11,28 @@ function Sidebar(){
   return(
     <div className="left-sidebar">
       <table>
-        <button>
+        {/* <button> */}
           
             <tr>
-                <th scope="col"><img src={coco}/></th>
-               <th scope="col"> <img src={toc}/>homme</th>
-               <th scope="col"> <img src={fac}/>Explore</th>
-               <th scope="col"> <img src={jic}/>Notifications</th>
-               <th scope="col"> <img src={fonc}/>Messages</th>
-               <th scope="col"> <img src={fic}/>Bookmarks</th>
-               <th scope="col"> <img src={fi}/>Lists</th>
-               <th scope="col"><img src={pic}/>Profile</th>
-               <th scope="col"> <img src={mic}/>More</th>
-
+         <div><th scope="col"><img src={coco}/></th></div>
+               <div> <th scope="col"> <img src={toc}/>homme</th></div>
+            <div><th scope="col"> <img src={fac}/>Explore</th></div>
+        <div><th scope="col"> <img src={jic}/>Notifications</th></div>
+            <div><th scope="col"> <img src={fonc}/>Messages</th></div>
+           <div><th scope="col"><img src={fic}/>Bookmarks</th></div> 
+               <div><th scope="col"> <img src={fi}/>Lists</th></div>
+               <div><th scope="col"><img src={pic}/>Profile</th></div>
+              <div> <th scope="col"> <img src={mic}/>More</th></div>
+             
+              
+              <div className="button">
+                Tweet
+              </div>
             </tr>
+
          
-          </button>
-      
+          {/* </button>
+       */}
       </table>
      
      

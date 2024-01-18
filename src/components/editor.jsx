@@ -18,23 +18,13 @@ function Editor() {
        
         
           <form classeName="tweet-editor-form">
-            
-          
-             
             <texterea
                 className="tweet-editor-input"
-           
+          
               rows="3"
               type="text"
               required
-            
               />
-              
-            
-             
-            
-            
-            
             <div className="tweet-editor-buttons">
               
               <div className="tweet-editor-actions">
