@@ -9,7 +9,7 @@ import bic from "/Group 20.svg"
 function Editor() {
 
   return (
-    // <div className="timeline">
+    <div className="timeline">
       
       <div className="tweet-editor">
           <div className="avatar">
@@ -18,13 +18,9 @@ function Editor() {
        
         
           <form classeName="tweet-editor-form">
-            <texterea
-                className="tweet-editor-input"
-          
-              rows="3"
-              type="text"
-              required
-              />
+            <textarea className="tweet-editor-input"placeholder="What'shappenning?">
+              </textarea>
+           
             <div className="tweet-editor-buttons">
               
               <div className="tweet-editor-actions">
@@ -39,13 +35,36 @@ function Editor() {
               <div className="button">
                 Tweet
               </div>
-              
+
               </div>
+           
         </form>
       </div>  
+    </div>
+    // <div className="tweet-editor">
+    //   <div className="avatar"> <img src={profilePhoto}/> </div>
+
+    //   <div classeName="tweet-editor-form" >
+    //   <div className="tweet-editor-input" >What'shappenning?</div>
+    //  <div className="tweet-editor-buttons">
+    //   <div className="tweet-editor-actions"> 
+    //   <img src={groupe}/>
+    //   <img src={god}/>
+    //   <img src={face}/>
+    //   <img src={bac}/>
+    //   <img src={bic}/>
+    //   </div>
+    //     <div className="button">
+    //        Tweet
+    //     </div>
+    //     </div>
+    //   </div>
     // </div>
     
   )
 }
 
+
+
 export default Editor
+

@@ -2,6 +2,8 @@ import Home from "./pages/home.jsx";
 import Layout from "./components/layout.jsx";
 import Sidebar from "./components/sidebar.jsx";
 import Trends from "./components/trends.jsx";
+// import Follow from "./components/follow.jsx";
+
 
 
 
@@ -18,6 +20,7 @@ export default function App() {
       <Home/>
       
      <Trends/>
+        {/* <Follow/> */}
       
       </Layout>
 
