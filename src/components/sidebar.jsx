@@ -12,11 +12,11 @@ import lic from "/public/Private.svg"
 function Sidebar(){
   return(
     <div className="left-sidebar">
-      <table>
+      <table className= "ax-w-md space-y-1 text-gray-500 list-none list-inside dark:text-gray-400" >
         {/* <button> */}
           
             <tr>
-         <div><th scope="col"><img src={coco}/></th></div>
+         <div ><th scope="col"><img src={coco}/></th></div>
                <div> <th scope="col"> <img src={toc}/>homme</th></div>
             <div><th scope="col"> <img src={fac}/>Explore</th></div>
         <div><th scope="col"> <img src={jic}/>Notifications</th></div>

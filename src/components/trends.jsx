@@ -27,13 +27,14 @@ function Trends(){
 
         <div className="god"> <p>show more</p> </div>
 
-        <div className="tweet-body">
-           <div > <h3> Who to follow</h3> </div>
+        
+         
           
-        </div>
+    
         </section> 
       
         <section> 
+          <div > <h3> Who to follow</h3> </div>
           <div>  
             <img src={fo}/><p>The New York Times</p>
              <p class="text-sm text-gray-500 truncate dark:text-gray-400"> @nytimes </p>
