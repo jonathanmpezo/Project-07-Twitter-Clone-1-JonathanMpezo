@@ -13,18 +13,18 @@ function Sidebar(){
   return(
     <div className="left-sidebar">
       <table className= "ax-w-md space-y-1 text-gray-100 list-none list-inside dark:text-gray-400" >
+        <div class="flex flex-col space-y-4 ...">
       
-          <thead>
-            <tr>
-              <th><img src={coco}/></th>
-            </tr>
-          </thead>
+        
         
         <tbody>
+          <tr>
+            <th scope="col"><img src={coco}/></th>
+          </tr>
           
           <tr>
             <td><img src={toc}/></td>
-            <th scope="col"> <td >homme</td></th>
+            <th scope="col"> <td >home</td></th>
           </tr>
           <tr>
             <td><img src={fac}/></td>
@@ -61,32 +61,24 @@ function Sidebar(){
             <div><th scope="col">More</th></div>
           </tr>
 
-
-           
-
         </tbody>
        
-            <tr>
-              <div className="button">
-                Tweet
+          </div>
+          
+              <div class="flex space-x-4 ...">
+              <div className="button"> 
+                <div>Tweet</div>
+               </div> 
               </div>
-            </tr>
-
-         
-     
+          
+       
       </table>
       
 
   <div className="avatar.btn"> <img src={profilePhoto}/>
           Brandley< img src={lic} />
        </div>
-       
-     {/* </section> */}
-      {/* <button className="header_btn">
-          <img height="15px" width="15px" src={this.props.imageUrl} />
-          {this.props.text}
-      </button>
-      */}
+    
   </div>
     
     
