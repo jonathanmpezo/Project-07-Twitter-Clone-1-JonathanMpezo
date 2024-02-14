@@ -26,12 +26,9 @@ function Trends(){
 
 
         <div className="god"> <p>show more</p> </div>
-
-        
-         
-          
     
         </section> 
+      
       
         <section> 
           <div > <h3> Who to follow</h3> </div>
@@ -42,7 +39,6 @@ function Trends(){
           </div>
           
         
-          
           <div> <img src={logo}/> 
               <p>CNN</p>
              <img src={zig}/> 
