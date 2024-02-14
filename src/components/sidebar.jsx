@@ -21,20 +21,36 @@ function Sidebar(){
           </thead>
         
         <tbody>
+          
           <tr>
             <td><img src={toc}/></td>
-            <td scope="col">homme</td>
+            <th scope="col"> <td >homme</td> </th>
           </tr>
+          <tr>
+            <td><img src={fac}/></td>
+            <div><th scope="col">Explore</th></div>
+          </tr>
+
+          <tr>
+            <td> <img src={jic}/></td>
+           <div><th scope="col">Notifications</th></div> 
+          </tr>
+
+          <tr>
+            <td><img src={fonc}/></td>
+            <div><th scope="col">Messages</th></div>
+          </tr>
+           
 
         </tbody>
        
             <tr>
-              <div ><th scope="col"></th></div>
-               <div> <th scope="col"> </th></div>
+              
+              
              
-            <div><th scope="col"> <img src={fac}/>Explore</th></div>
-        <div><th scope="col"> <img src={jic}/>Notifications</th></div>
-            <div><th scope="col"> <img src={fonc}/>Messages</th></div>
+         
+      
+            <div><th scope="col"></th></div>
            <div><th scope="col"><img src={fic}/>Bookmarks</th></div> 
                <div><th scope="col"> <img src={fi}/>Lists</th></div>
                <div><th scope="col"><img src={pic}/>Profile</th></div>
