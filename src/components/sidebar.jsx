@@ -13,11 +13,25 @@ function Sidebar(){
   return(
     <div className="left-sidebar">
       <table className= "ax-w-md space-y-1 text-gray-100 list-none list-inside dark:text-gray-400" >
-        {/* <button> */}
-          
+      
+          <thead>
             <tr>
-         <div ><th scope="col"><img src={coco}/></th></div>
-               <div> <th scope="col"> <img src={toc}/>homme</th></div>
+              <th><img src={coco}/></th>
+            </tr>
+          </thead>
+        
+        <tbody>
+          <tr>
+            <td><img src={toc}/></td>
+            <td scope="col">homme</td>
+          </tr>
+
+        </tbody>
+       
+            <tr>
+              <div ><th scope="col"></th></div>
+               <div> <th scope="col"> </th></div>
+             
             <div><th scope="col"> <img src={fac}/>Explore</th></div>
         <div><th scope="col"> <img src={jic}/>Notifications</th></div>
             <div><th scope="col"> <img src={fonc}/>Messages</th></div>
@@ -33,11 +47,10 @@ function Sidebar(){
             </tr>
 
          
-          {/* </button>
-       */}
+     
       </table>
       
-     {/* <section>   */}
+
   <div className="avatar.btn"> <img src={profilePhoto}/>
           Brandley< img src={lic} />
        </div>
