@@ -11,6 +11,7 @@ import profilePhoto from "../images/profile-photo.png"
 import lic from "/public/Private.svg"
 function Sidebar(){
   return(
+    
     <div className="left-sidebar">
       <table className= "ax-w-md space-y-1 text-gray-100 list-none list-inside dark:text-gray-400" >
         <div class="flex flex-col space-y-4 ... ">
