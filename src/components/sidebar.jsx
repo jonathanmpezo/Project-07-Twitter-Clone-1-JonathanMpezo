@@ -13,7 +13,7 @@ function Sidebar(){
   return(
     <div className="left-sidebar">
       <table className= "ax-w-md space-y-1 text-gray-100 list-none list-inside dark:text-gray-400" >
-        <div class="flex flex-col space-y-4 ...">
+        <div class="flex flex-col space-y-4 ... ">
       
         
         
@@ -26,6 +26,7 @@ function Sidebar(){
             <td><img src={toc}/></td>
             <th scope="col"> <td >home</td></th>
           </tr>
+          
           <tr>
             <td><img src={fac}/></td>
             <div><th scope="col">Explore</th></div>
@@ -75,14 +76,21 @@ function Sidebar(){
       </table>
       
 
-  <div className="avatar.btn"> <img src={profilePhoto}/>
-          Brandley< img src={lic} />
-       </div>
+      <div className="wrapper">
+        <div className="avatar.btn"> 
+          <img src={profilePhoto}/>
+                Brandley< img src={lic} />
+             </div>
+      </div>
+ 
     
   </div>
+
     
     
     
   )
 }
+
+
 export default Sidebar

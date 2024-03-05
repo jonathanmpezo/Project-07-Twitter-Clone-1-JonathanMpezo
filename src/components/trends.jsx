@@ -54,8 +54,6 @@ function Trends(){
             </div>
        </section>
 
-        
-       
     
     </table>
 

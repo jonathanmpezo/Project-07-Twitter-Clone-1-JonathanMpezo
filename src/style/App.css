@@ -201,14 +201,18 @@ body{
 .god{
   color: #1D9BF0
 }
-/* .left-sidebar{
-  display:fex;
-   /* column-width:50em; */
-   /* column-rule:1px solid rgb(75,70,75);
+
+.left-sidebar  {
+  flex: ;
+  justify-content: center;
+  line-height: 50px; 
+  }
+
+
   
-  table,{
+  /* table,{
     
   }
   
-  }
- */ 
+  } */
+ 
