@@ -207,8 +207,12 @@ body{
   justify-content: center;
   line-height: 50px; 
   }
-
-
+#trends {
+flex: 1;
+justify-content: center;
+line-height: 100px; 
+}
+ 
   
   /* table,{
     
