@@ -210,21 +210,15 @@ body{
 .tris{
   height: 750px;
   width: 100px;
-  
+}
 
-
-
-  .avatarbtn{
-    max-width : 100%;
-    height : auto;
-    }
-  
-
-  
-  
-  
-  
-
+.avatarbtn{
+  max-width : 100%;
+  height : auto;
+  }
+.rosse{
+   background-color: #212121
+     
 }
 /* #trends {
 flex: 1;

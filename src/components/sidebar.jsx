@@ -15,9 +15,6 @@ function Sidebar(){
     <div className="left-sidebar">
       <table className= "ax-w-md space-y-1 text-gray-100 list-none list-inside dark:text-gray-400" >
         <div class="flex flex-col space-y-4 ... ">
-      
-        
-        
         <tbody>
           <tr>
             <th scope="col"><img src={coco}/></th>

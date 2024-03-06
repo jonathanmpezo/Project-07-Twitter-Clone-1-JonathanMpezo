@@ -10,37 +10,45 @@ function Trends(){
     <table>
       <section className="trends">
         <div class="flex-1 min-w-0">
-          <tbody>
-            <tr>
-               <th scope="col">Trends for you  <img src={kat}/></th>
-            </tr>
-
-          
-             <div>
-               <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><img src={pic}/> <th scope="col">#SQUI <p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th>
-             </div> 
-
-          
-
-            <div> <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><img src={pic}/><th scope="col">#SQUI<p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th></div>
-
-            <div> <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><img src={pic}/><th scope="col">#SQUI<p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th></div>
+          <div className="rosse">
+            <tbody>
+              <div >
+                <tr>
+                   <th scope="col">Trends for you </th>
+                  <td> <img src={kat}/></td>
+                </tr>
+              </div>
 
 
-            <div> <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><img src={pic}/><th scope="col">#SQUI<p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th></div>
+               <div>
+                 <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><img src={pic}/> <th scope="col">#SQUI <p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th>
+               </div> 
 
 
 
-            <div className="god"> <p>show more</p> </div>
+              <div> <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><img src={pic}/><th scope="col">#SQUI<p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th></div>
 
-          </tbody>
+              <div> <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><img src={pic}/><th scope="col">#SQUI<p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th></div>
+
+
+              <div> <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><img src={pic}/><th scope="col">#SQUI<p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th></div>
+
+
+
+              <div className="god"> <p>show more</p> </div>
+
+            </tbody>
+          </div>
+         
         </div>
          
         </section> 
       
       
         <section> 
-          <div > <h3> Who to follow</h3> </div>
+          
+          <div > 
+            <h3> Who to follow</h3> </div>
           <div>  
             <img src={fo}/><p>The New York Times</p>
              <p class="text-sm text-gray-500 truncate dark:text-gray-400"> @nytimes </p>
