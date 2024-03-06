@@ -202,17 +202,36 @@ body{
   color: #1D9BF0
 }
 
-.left-sidebar  {
+.left-sidebar {
   flex: ;
   justify-content: center;
   line-height: 50px; 
   }
-#trends {
+.tris{
+  height: 750px;
+  width: 100px;
+  
+
+
+
+  .avatarbtn{
+    max-width : 100%;
+    height : auto;
+    }
+  
+
+  
+  
+  
+  
+
+}
+/* #trends {
 flex: 1;
 justify-content: center;
 line-height: 100px; 
 }
- 
+  */
   
   /* table,{
     

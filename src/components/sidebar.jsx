@@ -66,10 +66,13 @@ function Sidebar(){
         </tbody>
        
           </div>
-          
-              <div class="flex space-x-4 ...">
-              <div className="button"> 
-                <div>Tweet</div>
+      
+              <div className="tris">
+                <div class="flex space-x-5...">
+                  <div className="button"> 
+                    <div>Tweet</div>
+              </div>
+              
                </div> 
               </div>
           
@@ -78,9 +81,17 @@ function Sidebar(){
       
 
       <div className="wrapper">
-        <div className="avatar.btn"> 
-          <img src={profilePhoto}/>
-                Brandley< img src={lic} />
+        <div className="avatarbtn"> 
+          <tr>
+            <th>
+               <img src={profilePhoto}/>
+            </th>
+            Brandley Ortiz
+             < img src={lic} />
+            <td>...</td>
+          </tr>
+         
+               
              </div>
       </div>
  
