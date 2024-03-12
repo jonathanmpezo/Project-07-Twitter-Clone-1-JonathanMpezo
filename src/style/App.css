@@ -217,9 +217,26 @@ body{
   height : auto;
   }
 .rosse{
-   background-color: #212121
+  background-color: rgb(38 38 38);
+   padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid rgb(38 38 38);
+    box-shadow: 1px 1px 1px rgb(38 38 38);
+
      
 }
+ .container{
+   width: 100%;
+   max-width: 640px;
+    max-width: 768px;
+    max-width: 1024px;
+    max-width: 1280px;
+    max-width: 1536px;
+
+
+ }
 /* #trends {
 flex: 1;
 justify-content: center;
