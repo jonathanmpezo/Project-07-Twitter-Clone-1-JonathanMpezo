@@ -65,7 +65,7 @@ function Sidebar(){
           </div>
       
               <div className="tris">
-                <div class="flex space-x-5...">
+                <div  class="flex flex-col space-y-4 ...">
                   <div className="button"> 
                     <div>Tweet</div>
               </div>
