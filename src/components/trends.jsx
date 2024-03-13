@@ -15,7 +15,7 @@ function Trends(){
             <div class="ax-w-md space-y-1 text-gray-100 list-none list-inside dark:text-gray-400">
               <div className="masse">
                 <form class="max-w-md mx-auto">   
-                    {/* <label for="default-search" class="mb-2 text-sm font-medium text-gray-100 sr-only dark:text-white">Search</label> */}
+                   
                     <div class="relative">
                         <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                             <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
@@ -28,23 +28,7 @@ function Trends(){
                 </form>
               </div>
               <tbody className="rosse">
-                {/* <div class="relative">
-                
-                  <div className="">
-                      <div className="Search">
-                        <img src={vasse}/>
-                      </div>
-                  </div>
-
-                  <form classeName="tweet-editor-form">
-                    <textarea className="tweet-editor-input"placeholder="What'shappenning?">
-                      </textarea>
-                  </form>
-
-                  
-
-                  
-                </div> */}
+               
                 <div className= "flow-root">
                   <div class="-m-2 flex flex-wrap"> 
                     <div class="m-2 ..."><th scope="col">Trends for you </th> </div>
@@ -85,29 +69,59 @@ function Trends(){
         </section> 
       
       
-        <section> 
-          <div > 
-            <h3><th>Who to follow</th> </h3> </div>
-          <div>  
-            <img src={fo}/><p>The New York Times</p>
-             <p class="text-sm text-gray-500 truncate dark:text-gray-400"> @nytimes </p>
-            <img src={zig}/> <button class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Follow</button>
-          </div>
+        <section > 
+          
+            <h3><th>Who to follow</th> </h3>
+          
+          
+          <div class="relative h-24 w-35 ..." >  
+            
+            <section className=  "relative h-22 w-35 ...">
+            
+              
+              <img src={fo}/>
+              <div class="absolute top-0 right-0 h-16 w-50 ...">
+                 <div class="-m-2 flex flex-wrap">
+                <div className= "flow-root">
+                  <div class="m-2 ...">
+                     <p class="text-sm text-gray-300 truncate dark:text-gray-200">The New York Times</p>
+                  </div>
+               
+                  <div class="absolute top-0 right-0 h-16 w-75 ..."> <img src={zig}/></div>
+                    <div class="absolute top-0 right-0 h-26 w-56...">
+                   <button class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Follow</button>
+                            </div>
+                
+                   </div>
+                  </div>
+                 <p class="text-sm text-gray-500 truncate dark:text-gray-400"> @nytimes </p>
+              </div>
+            </section>
+            
+
+            
+           
+        
           
         
           <div> <img src={logo}/> 
-              <p>CNN</p>
-             <img src={zig}/> 
+              
+            
+            <div><p  class="text-sm text-gray-300 truncate dark:text-gray-200">CNN</p></div>
+             <img src={zig}/>
+            
              <p class="text-sm text-gray-500 truncate dark:text-gray-400"> @CNN </p>
             <button class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Follow</button>
             </div>
           
           <div> <img src={kas}/>
-            <p>Twitter</p>
-             <img src={zig}/> 
+            <div> <p class="text-sm text-gray-300 truncate dark:text-gray-200">Twitter</p></div>
+            <img src={zig}/> 
+            
              <p class="text-sm text-gray-500 truncate dark:text-gray-400"> @Twitter</p>
             <button class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Follow</button>
             </div>
+          </div>
        </section>
 
     
