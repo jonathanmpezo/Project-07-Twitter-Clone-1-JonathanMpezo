@@ -77,24 +77,17 @@ function Trends(){
                   <div class="absolute top-0 right-0 h-16 w-79 ..."><img src={pic}/></div>
                   <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><th scope="col">#SQUI<p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th></div>
 
-
-
                 <div className="god"> <p>show more</p> </div>
-
               </tbody>
             </div>
-           
           </div>
-         
         </div>
-         
         </section> 
       
       
         <section> 
-          
           <div > 
-            <h3> Who to follow</h3> </div>
+            <h3><th>Who to follow</th> </h3> </div>
           <div>  
             <img src={fo}/><p>The New York Times</p>
              <p class="text-sm text-gray-500 truncate dark:text-gray-400"> @nytimes </p>
