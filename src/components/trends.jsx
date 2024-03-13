@@ -22,7 +22,7 @@ function Trends(){
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                             </svg>
                         </div>
-                        <input type="search" id="default-search" class="block w-full p-1 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Mockups, Logos..." required />
+                        <input type="search" id="default-search" class="block w-full p-1 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search bonjour mpezo..." required />
 
                     </div>
                 </form>
@@ -45,27 +45,37 @@ function Trends(){
 
                   
                 </div> */}
-                <div className= "" >
-                  <div>
-                    <tr>
-                       <th scope="col">Trends for you </th>
-                      <td> <img src={kat}/></td>
-                    </tr>
+                <div className= "flow-root">
+                  <div class="-m-2 flex flex-wrap"> 
+                    <div class="m-2 ..."><th scope="col">Trends for you </th> </div>
+                    <div class="m-5 ..."><td> <img src={kat}/></td></div>
                   </div>
+                  
+                 
                 </div>
-               
-               <div>
-                   <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><img src={pic}/> <th scope="col">#SQUI <p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th>
+
+               <div className= "">
+                 <div class="relative h-24 w-35 ...">
+                   <div class="absolute top-0 right-0 h-16 w-79 ..."><img src={pic}/></div>
+                   <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p>  <th scope="col">#SQUI <p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th>
+                   
+                   </div>
                  </div> 
 
 
 
-                <div> <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><img src={pic}/><th scope="col">#SQUI<p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th></div>
+                <div class="relative h-24 w-35 ...">
+                  <div class="absolute top-0 right-0 h-16 w-79 ..."><img src={pic}/></div>
+                  <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><th scope="col">#SQUI<p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th></div>
 
-                <div> <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><img src={pic}/><th scope="col">#SQUI<p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th></div>
+                <div class="relative h-24 w-35 ..."> 
+                  <div class="absolute top-0 right-0 h-16 w-79 ..."><img src={pic}/></div>
+                  <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><th scope="col">#SQUI<p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th></div>
 
 
-                <div> <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><img src={pic}/><th scope="col">#SQUI<p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th></div>
+                <div class="relative h-24 w-35 ..."> 
+                  <div class="absolute top-0 right-0 h-16 w-79 ..."><img src={pic}/></div>
+                  <p class="text-sm text-gray-500 truncate dark:text-gray-400"> Trending in turkey </p><th scope="col">#SQUI<p class="text-sm text-gray-500 truncate dark:text-gray-400"> 2,066 Tweets </p></th></div>
 
 
 
