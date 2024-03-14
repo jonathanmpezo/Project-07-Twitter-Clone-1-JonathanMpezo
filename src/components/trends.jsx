@@ -98,15 +98,7 @@ function Trends(){
               </div>
             </section>
             
-
-            
-           
-        
-          
-        
           <div> <img src={logo}/> 
-              
-            
             <div><p  class="text-sm text-gray-300 truncate dark:text-gray-200">CNN</p></div>
              <img src={zig}/>
             
@@ -123,8 +115,6 @@ function Trends(){
             </div>
           </div>
        </section>
-
-    
     </table>
 
    
