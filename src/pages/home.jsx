@@ -7,7 +7,7 @@ import Phase from '../components/phase.jsx';
 import Time from '../components/time.jsx';
 import Affiche from '../components/affiche.jsx';
 import Image from '../components/image.jsx';
-import lune from'../components/lune.jsx';
+import Lune from'../components/lune.jsx';
   
 
 
@@ -28,7 +28,7 @@ function Home() {
       <Time />
       <Affiche />
       <Image />
-      <lune/>
+      <Lune/>
 
 
 
